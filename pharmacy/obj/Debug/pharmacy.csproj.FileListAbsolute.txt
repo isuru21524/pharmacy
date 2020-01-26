@@ -1,0 +1,34 @@
+c:\users\isuru madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\bin\Debug\pharmacy.exe.config
+c:\users\isuru madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\bin\Debug\pharmacy.exe
+c:\users\isuru madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\bin\Debug\pharmacy.pdb
+c:\users\isuru madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\bin\Debug\Bunifu_UI_v1.5.3.dll
+c:\users\isuru madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.login_window.resources
+c:\users\isuru madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.Properties.Resources.resources
+c:\users\isuru madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.csproj.GenerateResource.Cache
+c:\users\isuru madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.exe
+c:\users\isuru madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.pdb
+C:\Users\Isuru Madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.main_window.resources
+C:\Users\Isuru Madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.watch.resources
+C:\Users\Isuru Madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.yesnofrm.resources
+C:\Users\Isuru Madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.backpanel.resources
+C:\Users\Isuru Madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Isuru Madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Isuru Madhushan\Documents\Visual Studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.datelabel.resources
+C:\Users\Isuru Madhushan\Documents\Visual Studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.stockform.resources
+C:\Users\Isuru Madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.updateexitem_window.resources
+C:\Users\Isuru Madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\bin\Debug\MetroFramework.dll
+C:\Users\Isuru Madhushan\Desktop\pharmacy\pharmacy\bin\Debug\pharmacy.exe.config
+C:\Users\Isuru Madhushan\Desktop\pharmacy\pharmacy\obj\Debug\pharmacy.exe
+C:\Users\Isuru Madhushan\Desktop\pharmacy\pharmacy\obj\Debug\pharmacy.pdb
+C:\Users\Isuru Madhushan\documents\visual studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.newitem_window.resources
+C:\Users\Isuru Madhushan\Documents\Visual Studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.csprojResolveAssemblyReference.cache
+C:\Users\Isuru Madhushan\Documents\Visual Studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.newuserform.resources
+C:\Users\Isuru Madhushan\Documents\Visual Studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.cashier_window.resources
+C:\Users\Isuru Madhushan\Documents\Visual Studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.supplier_payment_form.resources
+C:\Users\Isuru Madhushan\Documents\Visual Studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.salarypayment_window.resources
+C:\Users\Isuru Madhushan\Documents\Visual Studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.cashier_report_window.resources
+C:\Users\Isuru Madhushan\Documents\Visual Studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.salary_report_window.resources
+C:\Users\Isuru Madhushan\Documents\Visual Studio 2015\Projects\pharmacy\pharmacy\obj\Debug\pharmacy.customer_window.resources
+C:\Users\Isuru Madhushan\Desktop\project\pharm\pharmacy 2\pharmacy\bin\Debug\pharmacy.exe.config
+C:\Users\Isuru Madhushan\Desktop\project\pharm\pharmacy 2\pharmacy\obj\Debug\pharmacy.exe
+C:\Users\Isuru Madhushan\Desktop\project\pharm\pharmacy 2\pharmacy\obj\Debug\pharmacy.pdb

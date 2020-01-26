@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2B70DF09-CA94-446C-A41E-926C6E853AC6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>pharmacy</RootNamespace>
+    <AssemblyName>pharmacy</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio 12.0\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio 12.0\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.10.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="backpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="backpanel.Designer.cs">
+      <DependentUpon>backpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cashier_report_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cashier_report_window.Designer.cs">
+      <DependentUpon>cashier_report_window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cashier_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cashier_window.Designer.cs">
+      <DependentUpon>cashier_window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customer_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customer_window.Designer.cs">
+      <DependentUpon>customer_window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datelabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="datelabel.Designer.cs">
+      <DependentUpon>datelabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dbconnection.cs" />
+    <Compile Include="login_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_window.Designer.cs">
+      <DependentUpon>login_window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_window.Designer.cs">
+      <DependentUpon>main_window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newitem_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newitem_window.Designer.cs">
+      <DependentUpon>newitem_window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newuserform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newuserform.Designer.cs">
+      <DependentUpon>newuserform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="salarypayment_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salarypayment_window.Designer.cs">
+      <DependentUpon>salarypayment_window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salary_report_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salary_report_window.Designer.cs">
+      <DependentUpon>salary_report_window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stockform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stockform.Designer.cs">
+      <DependentUpon>stockform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="supplier_payment_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplier_payment_form.Designer.cs">
+      <DependentUpon>supplier_payment_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateexitem_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateexitem_window.Designer.cs">
+      <DependentUpon>updateexitem_window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="watch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="watch.Designer.cs">
+      <DependentUpon>watch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yesnofrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yesnofrm.Designer.cs">
+      <DependentUpon>yesnofrm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="backpanel.resx">
+      <DependentUpon>backpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashier_report_window.resx">
+      <DependentUpon>cashier_report_window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashier_window.resx">
+      <DependentUpon>cashier_window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer_window.resx">
+      <DependentUpon>customer_window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datelabel.resx">
+      <DependentUpon>datelabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_window.resx">
+      <DependentUpon>login_window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_window.resx">
+      <DependentUpon>main_window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newitem_window.resx">
+      <DependentUpon>newitem_window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newuserform.resx">
+      <DependentUpon>newuserform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="salarypayment_window.resx">
+      <DependentUpon>salarypayment_window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salary_report_window.resx">
+      <DependentUpon>salary_report_window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stockform.resx">
+      <DependentUpon>stockform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplier_payment_form.resx">
+      <DependentUpon>supplier_payment_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateexitem_window.resx">
+      <DependentUpon>updateexitem_window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="watch.resx">
+      <DependentUpon>watch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yesnofrm.resx">
+      <DependentUpon>yesnofrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closebutton_white3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logssss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Android-App-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group new new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login newwwww.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-button-md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-abmeldung-computer-icons-session-clip-art-register-button-thumb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmacy mid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QV9xjnE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Setting-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-dancing-light-motion-background_-1unuc-zs__F0000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back new.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stocks-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stoke item.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up ex item.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up detail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new item.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32-322068_find-glass-magnifying-magnifying-glass-search-icon-search-icon-vector-png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goback.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go back newzzzzz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back cash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adding.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visa_PNG18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus qty.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus plus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus new.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deliting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deliting new.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear bill.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billcopy.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
