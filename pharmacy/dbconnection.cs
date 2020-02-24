@@ -24,7 +24,7 @@ namespace pharmacy
                 connBuilder.Add("Database", "pharmacy");
                 connBuilder.Add("Data Source", "localhost");
                 connBuilder.Add("User Id", "root");
-                connBuilder.Add("Password", "your password");
+                connBuilder.Add("Password", "your data base password");
 
                 conn = new MySqlConnection(connBuilder.ConnectionString);
                 conn.Open();
